@@ -1,9 +1,9 @@
 import os
 import time
+from pathlib import Path
 import torch
 import torch.optim as optim
 from torch.utils.tensorboard import SummaryWriter
-from pathlib import Path
 
 from dataset import create_dataloaders
 from models import Pix2PixGenerator, Pix2PixDiscriminator
